@@ -1,0 +1,171 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+
+}
+
+.footerServices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  justify-content: center;
+  padding: 24px;
+}
+
+.footerItem {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex img {
+  width: 41px;
+  height: 41px;
+  margin-right: 8px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 14px;
+  color: #222;
+}
+
+.subTitle {
+  font-size: 12px;
+  color: #555;
+}
+
+
+.container {
+  margin-top: 2rem;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.accordionItem {
+  padding: 1rem;
+  border-radius: 8px;
+      margin-right: 90px;
+}
+
+.accordionTitle {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: black;
+}
+
+.socialIcons li {
+    list-style: none;
+    
+}
+
+.socialIcons  {
+    list-style: none;
+    
+}
+
+.socialIcons svg  {
+        width: 45px;
+    color: white;
+    background-color: black;
+    height: 45px;
+    fill: white;
+    padding: 6px;
+    border-radius: 10px;
+    
+}
+.footerNav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerNav span {
+font-weight: bold;
+color: black;
+}
+
+.footerNav li {
+  margin-bottom: 0.5rem;
+}
+
+.footerNav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footerNav a:hover {
+  text-decoration: underline;
+}
+
+.newTag {
+  display: inline-flex;
+  background: #000;
+  color: #fff !important;
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 5px;
+  padding: 2px 7px 1px 7px;
+  border-radius: 3px;
+}
+
+.hideOnKiosk {
+  display: none;
+}
+
+
+.socialIcons {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 12px;
+}
+
+.socialIcons a {
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.2s ease;
+}
+
+.socialIcons a:hover {
+  color: #aaa;
+}
+
+.tiktok {
+    fill: black !important;
+    background-color: white !important;
+    color: unset !important;
+    width: 60px !important;
+    padding: unset !important;
+    height: 60px !important;
+    position: relative;
+    bottom: 7px;
+    right: 7px;
+}
+
+.countrySwitcher {
+  color: black;
+  font-size: 12px;
+      display: flex;
+    justify-content: start;
+    margin-left: 20px;
+}
+
+.countrySwitcher img {
+margin-right: 5px;
+position: relative;
+bottom: 5px;
+}
